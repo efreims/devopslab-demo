@@ -18,11 +18,11 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.crous-creteil.fr/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Site du CROUS de Créteil
         </a>
         {message && <p>{message}</p>}
       </header>
