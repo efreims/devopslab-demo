@@ -1,5 +1,6 @@
 name: Azure Static Web Apps CI/CD
 
+
 on:
   push:
     branches:
@@ -17,6 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
+          skip_deploy_on_missing_secrets: true
           submodules: true
       - name: Build And Deploy
         id: builddeploy
